@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('font/Roboto-Light-webfont.eot');
+    src: url('font/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Roboto-Light-webfont.woff') format('woff'),
+         url('font/Roboto-Light-webfont.ttf') format('truetype'),
+         url('font/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cls {
+  clear: both;
+}
+
+body {
+  font-family: 'roboto', Helvetica, Arial, sans-serif;
+  margin:0;
+  background-color: #F0F2EA;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+h1 strong {
+  font-family: 'roboto', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 strong.txtRed {
+  color: #E31E25;
+}
+
+h2 {
+  color: red;
+  font-family: 'roboto', Helvetica, Arial, sans-serif;
+  opacity: 0.8;
+  font-size: 48px;
+  color: #000000;
+  line-height: 57px;
+  font-weight: lighter;
+}
+
+.txtCenter {
+  text-align: center;
+
+}
+
+.openWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -50vw;
+  width: 100vw;
+
+}
+
+.openWrapper p {
+  color: white;
+  font-size: 18px;
+
+}
+
+.redButton {
+  background: #E31E25;
+  box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.50);
+  border-radius: 2px;
+  margin: 0 auto;
+  height: 56px;
+  width: 248px;
+}
+
+.redButton p {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 21px;
+  text-align: center;
+  margin: 0;
+  padding-top: 16px;
+}
+
+#headWrapper {
+  padding: 48px;
+}
+
+.mainMenu {
+  float:right;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.mainMenu li {
+
+  display: inline;
+  float: left;
+  padding: 12px 48px;
+}
+
+.mainMenu li a{
+  color: white;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#welcome {
+  background-image: url('../img/UC_background.png');
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.featureWrapper {
+    width: 80%;
+    margin: 142px auto;
+}
+
+.icoFeature {
+  float: left;
+  width: 25%;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.icoPlaceholder {
+  width: 96px;
+  height: 96px;
+  border: 8px solid #F2F2F2;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+}
+
+.featureDetailsWrapper {
+  width: 100%;
+  height: 480px;
+}
+
+.featureDetailsWrapper.impar .txt {
+  float:left;
+}
+
+.featureDetailsWrapper.impar .featImg {
+  float:right;
+}
+
+
+.featureDetailsWrapper.par .txt {
+  float:right;
+}
+
+.featureDetailsWrapper.par .featImg {
+  float:left;
+}
+
+.featureDetailsWrapper .featImg {
+  background-image: url('../img/UC_feature_art.png');
+  height: 100%;
+  width: 50%;
+}
+
+.featureDetailsWrapper .txt {
+  height: 100%;
+  width: 50%;
+
+}
+
+.txtMarginer {
+  margin: 136px 136px;
+}
+
+.featureDetailsWrapper .txt ul {
+  list-style-type: none;
+  font-family: 'roboto', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+}
+
+#footer {
+  height: 400px;
+  width: inherit;
+  background-color: #0E1217;
+}
