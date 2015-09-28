@@ -76,6 +76,8 @@ h2 {
 
 }
 
+
+
 .redButton {
   background: #E31E25;
   box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.50);
@@ -127,10 +129,31 @@ h2 {
   height: 100vh;
   position: relative;
 }
+
 .featureWrapper {
-    width: 80%;
-    margin: 142px auto;
+  width: 80%;
+  margin: 142px auto;
 }
+
+#guideWrapper {
+  background-image: url('../img/UCguidebg.png'); 
+  background-size: cover;
+  height: 240px;
+  padding: 64px 0 0 0;
+
+}
+
+#guideWrapper h2 {
+  color: white;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0 0 16px;
+
+}
+
+#guideWrapper .redButton  {
+  margin: 0;
+} 
 
 .icoFeature {
   float: left;
@@ -193,6 +216,35 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   padding: 0;
+}
+
+#guidetxtWrapper {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+#faqTxtWrapper {
+  margin: 0 auto;
+  width: 80vw;
+  padding: 60px 0;
+}
+
+#faqTxtWrapper h1 {
+  font-size: 48px;
+  color: #E31E25;
+}
+
+#faqTxtWrapper h2 {
+  font-size: 48px;
+  color: #333333;
+  line-height: 36px;
+  margin-top: 60px;
+}
+
+#faqTxtWrapper p {
+  font-size: 24px;
+  color: #262626;
+  line-height: 36px;
 }
 
 #footer {
